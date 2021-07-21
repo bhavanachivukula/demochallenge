@@ -6,14 +6,21 @@ namespace Challenge1
         public static void Main(string[] args){
         Console.WriteLine("Hello world");
         add();
+        sub();
         Console.ReadKey();
         }
-        static void add(){
+        public static void add(){
             int a=Convert.ToInt32(Console.ReadLine());
             int b=Convert.ToInt32(Console.ReadLine());
             int c=a+b;
-            Console.WriteLine("Addition program of a + b is"+c);
+            Console.WriteLine("Addition program of a + b is "+c);
         }
+        public static void sub(){
+        int a=Convert.ToInt32(Console.ReadLine());
+        int b=Convert.ToInt32(Console.ReadLine());
+        int c=a-b;
+        Console.WriteLine(c);
+        }  
     }
     
 }
